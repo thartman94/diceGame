@@ -47,4 +47,3 @@ def run_game(active_players: int) -> int:
     "winner": next((i for i, x in enumerate(players) if x), None)
   }
   
-print(run_game(2))
